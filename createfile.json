@@ -1,0 +1,128 @@
+{
+    "_id": {
+      "$oid": "62f2b0608cc3ecefa8b7e39c"
+    },
+    "name": "Kluniversity",
+    "images": [
+      "https://images.collegedunia.com/public/image/7cdd5946c827e074ec4517f983db6670.png?tr=w-750,h-563,c-force?tr=w-700,h-525,c-force",
+      "https://leavestranscript.com/wp-content/uploads/2020/08/K-L-University.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw3dYvHFsFsI1fLRAPVaucuA3RlqEvJezb4koE6ilgamIlmOpXI54R5niSL3sLOkmeWxc&usqp=CAU"
+    ],
+    "description": "K L University, officially K L Deemed to be University, formerly K L College of Engineering and Koneru Lakshmaiah Educational Foundation, is a higher educational institution Deemed to be University, located in Vaddeswaram, Guntur, Andhra Pradesh, India.KLEF was established in 1980 at Vaddeswaram as K L College of Engineering (KLCE). It became autonomous in 2006 and was recognized as deemed to be university in 2009, known as K L University. Following the University Grants Commission's request from 123 deemed institutes, not to use  in the name it was renamed Koneru Lakshmaiah Education Foundation. In 2019, it was renamed K L Deemed to be University. The university has recently expanded with a new campus in Bachupally, Hyderabad that has been operational since 2019.",
+    "category": [
+      "Private",
+      "Aicte"
+    ],
+    "sizes": [
+      "S",
+      "XS"
+    ],
+    "price": 10000,
+    "countInStock": 10,
+    "rating": 3,
+    "numReviews": 0,
+    "Uid": "1",
+    "Uname": "IIM Ahmedabad- Indian Institute of Management",
+    "Location": "Ahmedabad",
+    "Ownership": "Government - Autonomous",
+    "TotalCourses": 85,
+    "Courses": {
+      "Ug": {
+        "Btech": [
+          {
+            "id": 1,
+            "name": "cse"
+          },
+          {
+            "id": 2,
+            "name": "ece"
+          }
+        ],
+        "BA": [
+          {
+            "id": 1,
+            "name": "Advertising"
+          },
+          {
+            "id": 2,
+            "name": "archeology"
+          }
+        ]
+      },
+      "Pg": {
+        "Mtech": [
+          {
+            "id": 1,
+            "name": "cse"
+          },
+          {
+            "id": 2,
+            "name": "ece"
+          }
+        ],
+        "Msc": [
+          {
+            "id": 1,
+            "name": "mathematics"
+          },
+          {
+            "id": 2,
+            "name": "Zoology"
+          }
+        ]
+      },
+      "Phd": {
+        "Sciences": [
+          {
+            "id": 1,
+            "name": "chemistry"
+          },
+          {
+            "id": 2,
+            "name": "physics"
+          }
+        ],
+        "Arts": [
+          {
+            "id": 1,
+            "name": "economics"
+          },
+          {
+            "id": 2,
+            "name": "sociology"
+          }
+        ]
+      }
+    },
+    "CampusSize": 100,
+    "StudentIntake": 5352,
+    "TotalFaculty": 1200,
+    "OverallRating": 4.6,
+    "Placements": 4.5,
+    "Infrastructure": 4.6,
+    "Faculty": 4.5,
+    "ValueForMoney": 4.7,
+    "Nirf": 22,
+    "BussToday": 20,
+    "TheWeek": 20,
+    "Outlook": 20,
+    "coed": true,
+    "Salary": 2000000,
+    "TotalFees": 1000000,
+    "AcceptedExams": "JEE",
+    "Facilties": [
+      "Library",
+      "Cafeteria",
+      "Hostel",
+      "Sports Complex",
+      "Gym",
+      "Wifi",
+      "Auditorium",
+      "Music Room",
+      "AcClasses",
+      "Labs",
+      "Convenience Store"
+    ],
+    "StudentReview": 4.4,
+    "location": "Vaddeswaram,Guntur"
+  }

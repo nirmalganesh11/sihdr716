@@ -1,0 +1,32 @@
+{
+    "_id": {
+      "$oid": "62fd087abbf0951b733e78ee"
+    },
+    "name": "CSE",
+    "description": "B.Tech Computer Engineering is a 4-year undergraduate engineering program that deals with the study of design, computational process, programming languages to develop hardware and software applications. Computer engineering mainly deals with the development of computer application software. Computer engineering graduates have tremendous job opportunities to work in several career-enriching job profiles. ",
+    "category": [
+      "coursesobj",
+      "typecourse"
+    ],
+    "images":["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBm-Ip_ypHlHw5fnNL19YMPZ5lLtJQM1nc0gCzkmpq&s"],
+    "degree": "Bachelors",
+   "fullForm": "Bachelor of Technology in Computer Engineering",
+   "duration":4,
+   "minimumPercentage":"50%",
+   "Avg Fees":"INR 40000 - 3 LPA",
+   "Average Salary Offered": "INR 2 - 7 LPA",
+   "Employment Roles":"Software Engineer, Software Developer, Programmer",
+   "about":"As per Indiatimes, software engineering is defined as,Software engineering is a detailed study of engineering to the design, development and maintenance of software. Software engineering was introduced to address the issues of low-quality software projects B.Tech Computer Engineering course deals with the requirement gathering, planning, choosing the development methodology, design, implementation, execution, testing, and documentation of software applications. The syllabus covered by B.Tech in Computer Engineering course includes subjects like C, C++, Java, web development, software testing, software designing, and so on. B.Tech in Computer Engineering graduates have immense job scope in IT companies, educational institutions, government sector, software companies, and much more. Listed below are a few tools used by B.Tech in Computer Engineers aspirants",
+   "syllabus":"B.Tech Computer Engineering course is a four-year course with eight semesters. To complete the course, students must pursue all core subjects. Electives can be selected by students considering there are of interest and future scope. Lab practicals and projects are given to enhance aspirants' understanding of the course in real-time. Also, students are given quizzes, viva, seminars, surveys, paper publications, research, and internships as a part of the course. Important BTech Computer Engineering subjects are listed below C and Data Structure
+   Network Theory
+   Computer Programming
+   Data processing and File Organization
+   Linear and Digital ICS Application  -
+   Switching Theory and Logical Design 
+   Data Communications
+   Interfacing Through Microprocessors
+   Theory of Computation
+   Principles of Programming Languages
+   System Programming
+   Operation Research"
+  }

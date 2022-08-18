@@ -77,7 +77,7 @@ const ProductsC = ({match,history}) => {
         
             <div className = 'filters'> 
             <ul>
-                    <Link className = 'lined' to = '?cg'>All</Link>
+                    <Link className = 'lined' to = '?cg=uni'>All</Link>
                     <Link className = 'lined'  to = '?cg=private'>Private</Link>
                     <Link className = 'lined'  to = '?cg=government'>Govt</Link>
                     <Link className = 'lined'  to = '?cg=autonomous'>Pub/Priv</Link>

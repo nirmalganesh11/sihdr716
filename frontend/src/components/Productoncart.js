@@ -41,7 +41,7 @@ const Productoncart = ({product}) => {
                 <h2 className = 'priceproduct'>
                     {product.price}$</h2>
                 <h2 className = 'sandh'>
-                    sold and shiped by FedEx</h2>
+                    Apply through aicte </h2>
 
                 </div>
                 <div className = 'qtyoption' >

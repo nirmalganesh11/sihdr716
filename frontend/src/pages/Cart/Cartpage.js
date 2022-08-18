@@ -43,7 +43,7 @@ const Cartpage = ({match,location,history}) => {
         </div>
         <div className = 'totalcart'>
             <h3>
-            Subtotal ({cartItems.reduce((acc,item)=>acc+item.qty,0)} items) :
+            Subtotal ({cartItems.reduce((acc,item)=>acc+item.qty,0)} seats) :
 
             </h3>
             <h3 className = 'totalprice'>
@@ -52,24 +52,11 @@ const Cartpage = ({match,location,history}) => {
 
              ).toFixed(2)}$
             </h3>
+           
+           
+        
             <h3>
-            Delivery :
-
-            </h3>
-            <h3 className = 'totalprice'>
-            For free.
-
-            </h3>
-            <h3>
-            Taxes :
-
-            </h3>
-            <h3 className = 'totalprice'>
-            -- --.
-
-            </h3>
-            <h3>
-            Total :
+            Total FEE :
 
             </h3>
             <h3 className = 'totalprice'>
@@ -79,7 +66,7 @@ const Cartpage = ({match,location,history}) => {
              ).toFixed(2)}$
             </h3>
             <button className = 'checkoutbtn' disabled={cartItems.length===0} onClick={checkoutHandler}>
-            CHECKOUT
+            FINAL APPLY
             </button>
         </div>
 

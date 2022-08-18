@@ -148,9 +148,9 @@ const submithanlder = () =>{
            </ul>
            </div>
             <ul>
-              <li>Status: <span>{product.countInStock > 0 ? 'ìn stock' :  'Out Of Stock'}</span></li>
+              <li>Seats: <span>{product.countInStock > 0 ? 'Currently Seats Available' :  'No Admissions Available'}</span></li>
               <li>Category: <span>{product.category.map(cg =>' | ' + cg + ' | ')}</span></li>
-              <li>Shipping Area: <span>All over the world</span></li>
+              <li>Location: <span>{product.location}</span></li>
               <div>
                 <ul> <li>Qty :</li>
              {product.countInStock > 0 ?

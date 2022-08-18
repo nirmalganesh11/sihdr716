@@ -11,11 +11,12 @@ const Empty = () => {
             <EmptyS className = 'illustration'/>
             <div className = 'textempty'>
             <h1>
-                Wow Such an empty Cart
+                Empty Admissions page,
+                Try Applying to few Colleges
             </h1>
              
             <Link to = '/shop' className ='goshop' onMouseOver = {()=>{setarrow(true)}} onMouseLeave = {()=>{setarrow(false)}}>
-            Go Shop
+            Go search Universities  
             {!arrow ? <RiArrowRightSLine className = 'arrow' /> : <BsArrowBarRight className = 'arrow'/> }
             </Link>
             </div>

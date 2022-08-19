@@ -55,10 +55,10 @@ function Navbar() {
      </Link>
   </li>
   <li className='nav-item'>
-  <Link to='/news' className='nav-links' onClick={closeMobileMenu}>
+  <Link to='/newsapi' className='nav-links' onClick={closeMobileMenu}>
      News
   </Link>
-</li>
+</li> 
 <li className='nav-item'>
 <Link to='/admissions' className='nav-links' onClick={closeMobileMenu}>
    Admissions

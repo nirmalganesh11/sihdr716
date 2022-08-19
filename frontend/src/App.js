@@ -29,6 +29,7 @@ import Appy from './components/comparemodule/components/ProductComparison'
 import News from './components/TotalTry/App'
 import ShopCourse from './pages/ShopCourse'
 import ProductPageModified from './pages/Product/CourseProductPage'
+import news from './NewsModule/app'
 
 
  const App = () => { 
@@ -56,6 +57,7 @@ import ProductPageModified from './pages/Product/CourseProductPage'
                  <Switch>              
                  <Route path="/" exact component={Home}/>
                  <Route path="/news" exact component={News}/>
+                 <Route path="/newsapi" exact component={news}/>
                  <Route path="/compare" exact component={Appy}/>
                  <Route path="/about" component={About}/>
                  <Route path="/universities" component={Shop}/>

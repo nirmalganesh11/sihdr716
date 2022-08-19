@@ -19,7 +19,10 @@ const Home = () => {
                  <div className="cards">
                          <Cardscg title='UG'/>
                          <Cardscg title='PG'/>
-                         <Cardscg title='PHD'/>                
+                         <Cardscg title='PHD'/>
+                         <Cardscg title='IIT'/>
+                         <Cardscg title='NIT'/>
+                         <Cardscg title='IIIT'/>              
                  </div>
                 <CgDiv/>
                 <ProductsC/>

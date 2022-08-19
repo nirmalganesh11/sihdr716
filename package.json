@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "server.js",
   "type": "module",
- 
+
   "dependencies": {
     "ansi-styles": "^3.2.1",
     "aria-hidden": "^1.1.2",

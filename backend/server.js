@@ -8,8 +8,9 @@ import orderRoutes from "./routes/orderRoutes.js";
 import productRoutes from "./routes/productRoutes.js";
 //import courseRoutes from "./routes/CourseRoutes.js"
 
-import { notFound, errorHandler } from "./middleware/errorMiddleware.js";
 
+import { notFound, errorHandler } from "./middleware/errorMiddleware.js";
+import todos from "./routes/todos.route.js"
 dotenv.config();
 
 connectDB();
@@ -29,7 +30,7 @@ app.use("/api/orders", orderRoutes);
 app.get("/api/config/paypal", (req, res) =>
   res.send(process.env.PAYPAL_CLIENT_ID)
 );
-
+app.use(todos);
 const __dirname = path.resolve();
 
 if (process.env.NODE_ENV === "production") {

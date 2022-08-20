@@ -38,6 +38,7 @@ const ArticleList = props => {
     <List divided style={{ maxWidth: 900, margin: "0 auto" }}>
       {props.articles.map((article, index) => (
         <ArticleItem article={article} key={article.title + index} />
+        
       ))}
     </List>
   );

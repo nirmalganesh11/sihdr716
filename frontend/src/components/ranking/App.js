@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { useTable, useFilters, useGlobalFilter, useAsyncDebounce } from 'react-table'
 // A great library for fuzzy filtering/sorting items
+import { Grid,  TableBody, TableCell, Typography, TableContainer, TableHead, TableRow, Paper, List, ListItem, ListItemText } from '@material-ui/core';
 import matchSorter from 'match-sorter'
 import colleges from './colleges.json'
 

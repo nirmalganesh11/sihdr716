@@ -33,6 +33,7 @@ import news from './NewsModule/app'
 //import HomePage from './ReviewSystem/components/HomePage.js'
 //import EditPage from './ReviewSystem/src/components/EditPage'
 import Apple from './components/ranking/App'
+import leaderboard from './components/leaderboard/App'
 
 
  const App = () => { 
@@ -64,6 +65,7 @@ import Apple from './components/ranking/App'
                  <Route path="/compare" exact component={Appy}/>
                  <Route path="/about" component={About}/>
                  <Route path="/universities" component={Shop}/>
+                 <Route path="/leaderboard" component={leaderboard}/>
                  <Route path="/recomended" component={Apple}/>
                  <Route path="/courses" component={ShopCourse}/>
                  <Route path="/contactus" component={Contactus}/>

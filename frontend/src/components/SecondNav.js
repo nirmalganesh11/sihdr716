@@ -3,27 +3,40 @@ import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import './SecondNav.css';
 //import Dropdown from './Dropdown';
+import Dropdown from './Dropdown';
 
 function Navbar() {
   const [click, setClick] = useState(false);
   const [dropdown, setDropdown] = useState(false);
+  const [secondDropdown,setsecondDropdown] = useState(false);
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
   const onMouseEnter = () => {
-    if (window.innerWidth < 960) {
+    if (window.innerWidth < 9) {
       setDropdown(false);
+      setsecondDropdown(false);
     } else {
       setDropdown(true);
+    }
+  };
+  const onMouseEnterSecond = () => {
+    if (window.innerWidth < 9) {
+      setDropdown(false);
+      setsecondDropdown(false);
+    } else {
+      setsecondDropdown(true);
     }
   };
 
   const onMouseLeave = () => {
     if (window.innerWidth < 960) {
       setDropdown(false);
+      setsecondDropdown(false);
     } else {
       setDropdown(false);
+      setsecondDropdown(false);
     }
   };
 
@@ -49,21 +62,17 @@ function Navbar() {
            Courses
         </Link>
      </li>
-     <li className='nav-item'>
-     <Link to='/contactus' className='nav-links' onClick={closeMobileMenu}>
-        Reviews
-     </Link>
-  </li>
-  <li className='nav-item'>
+    
+  {/*<li className='nav-item'>
   <Link to='/news' className='nav-links' onClick={closeMobileMenu}>
      News
-  </Link>
-</li> 
-<li className='nav-item'>
+  </Link> 
+  </li> */}
+ {/* <li className='nav-item'>
 <Link to='/admissions' className='nav-links' onClick={closeMobileMenu}>
    Admissions
 </Link>
-</li>
+</li> */}
 <li className='nav-item'>
 <Link
   to='/recomended'
@@ -81,6 +90,22 @@ function Navbar() {
   Comparison
 </Link>
 </li>
+
+<li
+className='nav-item'
+onMouseEnter={onMouseEnter}
+onMouseLeave={onMouseLeave}
+>
+<Link
+  to='/services'
+  className='nav-links'
+  onClick={closeMobileMenu}
+>
+  Overall <i className='fas fa-caret-down' />
+</Link>
+{dropdown && <Dropdown />}
+</li>
+
 <li className='nav-item'>
 <Link to='/about'
   className='nav-links'
@@ -88,16 +113,32 @@ function Navbar() {
 >
   About
 </Link>
+
 </li>
-         
-          
-         
-        
+<li
+className='nav-item'
+onMouseEnter={onMouseEnterSecond}
+onMouseLeave={onMouseLeave}
+>
+<Link
+  to='/services'
+  className='nav-links'
+  onClick={closeMobileMenu}
+>
+  secondoverall <i className='fas fa-caret-down' />
+</Link>
+{secondDropdown && <Dropdown />}
+</li>
 
 
+<li className='nav-item'>
+<Link to='/contactus' className='nav-links' onClick={closeMobileMenu}>
+   Reviews
+</Link>
+</li>
 
 
-         
+ 
           <li>
             <Link
               to='/register'

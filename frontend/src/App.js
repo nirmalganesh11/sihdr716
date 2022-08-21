@@ -29,10 +29,11 @@ import Appy from './components/comparemodule/components/ProductComparison'
 import News from './components/TotalTry/App'
 import ShopCourse from './pages/ShopCourse'
 import ProductPageModified from './pages/Product/CourseProductPage'
-import news from './NewsModule/app'
+//import news from './NewsModule/app'
 //import HomePage from './ReviewSystem/components/HomePage.js'
 //import EditPage from './ReviewSystem/src/components/EditPage'
 import Apple from './components/ranking/App'
+
 import leaderboard from './components/leaderboard/App'
 //import ProfilePage from './components/profilepage/ProfilePage'
 import review from './components/reviewapp/App'
@@ -63,13 +64,14 @@ import review from './components/reviewapp/App'
                  <Switch>              
                  <Route path="/" exact component={Home}/>
                  <Route path="/news" exact component={News}/>
-                 <Route path="/newsapi" exact component={news}/>
+             
                  <Route path="/compare" exact component={Appy}/>
                  <Route path="/about" component={About}/>
                  <Route path="/universities" component={Shop}/>
                  <Route path="/leaderboard" component={leaderboard}/>
                  <Route path="/profilepage" component={leaderboard}/>
                  <Route path="/recomended" component={Apple}/>
+                
                  <Route path="/courses" component={ShopCourse}/>
                  <Route path="/contactus" component={review}/>
                  <Route path="/product/:id" component={Productpage}/>

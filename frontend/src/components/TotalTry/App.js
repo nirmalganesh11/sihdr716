@@ -4,6 +4,8 @@ import ArticleList from "./components/articlesList";
 import SearchBar from "./components/searchBar";
 import { Container, Header } from "semantic-ui-react";
 import { size } from "lodash";
+import Button from 'react-bootstrap/Button';
+
 
 class App extends React.Component {
   state = {
@@ -39,13 +41,12 @@ class App extends React.Component {
     } = this.state;
     return (
       <Container>
+      
         <Header as="h2" style={{ fontSize: 14,textAlign: "center", margin: 80}}><strong> Search for a topic</strong>
  
         </Header>
-        <SearchBar searchForTopic={this.searchForTopic} />
-        <p style={{ textAlign: "center" }}>
-          Powered by <a href="https://newsapi.org/">NewsAPI.org</a>
-        </p>
+        <center><Button variant="primary" size="lg" href="https://8j2fr.csb.app/">
+        Click For Daily News      </Button></center>
         {loading && (
           <p style={{ textAlign: "center" }}>Searching for articles...</p>
         )}
@@ -54,9 +55,13 @@ class App extends React.Component {
             Found {totalResults} articles on "{searchTopic}"
           </Header>
         )}
+        
+      
         {articles.length > 0 && <ArticleList articles={articles} />}
         {apiError && <p>Could not fetch any articles. Please try again.</p>}
       </Container>
+      
+    
     );
   }
 }

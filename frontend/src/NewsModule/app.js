@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Newss from './components/newss';
-	
+import data from './data.json'
 class App extends Component {
 	render() {
 	    return (
@@ -9,7 +9,7 @@ class App extends Component {
 	}
 	
 	state = {
-        newss: []
+        newss: data
     };
 
     componentDidMount() {

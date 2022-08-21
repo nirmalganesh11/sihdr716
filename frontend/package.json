@@ -16,6 +16,7 @@
     "bootstrap": "^4.6.0",
     "framer-motion": "^3.7.0",
     "match-sorter": "^4.0.0",
+    "mobx-react-form": "^3.2.0",
     "namor": "^2.0.4",
     "react": "^17.0.1",
     "react-bootstrap": "^1.5.2",

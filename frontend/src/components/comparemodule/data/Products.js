@@ -20,6 +20,10 @@ console.log(productthis);
     },
     "id":"24",
     "name": "LP University",
+    "UniversityType":"Private University",
+    "TotalCoursesOffered": 85,
+    "Student_Faculty_Ratio":"50:1",
+    "RequiredStandardTests": "JEE",
     "image": "https://spiderimg.amarujala.com/assets/images/2020/01/21/750x506/lpu_1579588723.png",
     "images": [
       "https://spiderimg.amarujala.com/assets/images/2020/01/21/750x506/lpu_1579588723.png",
@@ -45,6 +49,7 @@ console.log(productthis);
     "numReviews": 0,
     "Ownership": "Government - Autonomous",
     "TotalCourses": 85,
+    "PlacementPercentage":"95%",
     "Courses": {
       "Ug": {
         "Btech": [
@@ -153,6 +158,11 @@ console.log(productthis);
     },
     "id":"34",
     "name": "Giet University",
+    "PlacementPercentage":"95%",
+    "RequiredStandardTests": "JEE",
+    "UniversityType":"Private University",
+    "TotalCoursesOffered": 85,
+    "Student_Faculty_Ratio":"50:1",
     "image": "https://i.ytimg.com/vi/YmO0zoEmlrM/maxresdefault.jpg",
     "images": [
       "https://i.ytimg.com/vi/YmO0zoEmlrM/maxresdefault.jpg",
@@ -281,6 +291,11 @@ console.log(productthis);
     },
     "id":"45",
     "name": "AMRITA",
+    "RequiredStandardTests": "JEE",
+    "PlacementPercentage":"95%",
+    "UniversityType":"Private University",
+    "TotalCoursesOffered": 85,
+    "Student_Faculty_Ratio":"50:1",
     "image": "https://images.shiksha.com/mediadata/images/1566297871phpuuCoYB.jpeg",
     "images": [
       "https://images.shiksha.com/mediadata/images/1566297871phpuuCoYB.jpeg",
@@ -411,6 +426,11 @@ console.log(productthis);
     },
     "id":"23",
     "name": "Parul University",
+    "PlacementPercentage":"95%",
+    "RequiredStandardTests": "JEE",
+    "Student_Faculty_Ratio":"50:1",
+    "UniversityType":"Private University",
+    "TotalCoursesOffered": 85,
     "image": "https://media-exp1.licdn.com/dms/image/C561BAQEV6YLtweXS4w/company-background_10000/0/1554824586423?e=2159024400&v=beta&t=DOBOwZDGSd7mJt-XSSRIcf37345uTHb6sV0hAxsUxxs",
     "images": [
       "https://media-exp1.licdn.com/dms/image/C561BAQEV6YLtweXS4w/company-background_10000/0/1554824586423?e=2159024400&v=beta&t=DOBOwZDGSd7mJt-XSSRIcf37345uTHb6sV0hAxsUxxs",
@@ -678,6 +698,10 @@ console.log(productthis);
     },
     "id":"33",
     "name": "VVIT",
+    "Student_Faculty_Ratio":"50:1",
+    "UniversityType":"Private University",
+    "RequiredStandardTests": "JEE",
+    "TotalCoursesOffered": 85,
     "image":"https://preprimaryschools.com/assets/uploads/school/home/22022022053036_979428_Viva-The-School-By-Vvit-1.jpg",
     "images": [
       "https://preprimaryschools.com/assets/uploads/school/home/22022022053036_979428_Viva-The-School-By-Vvit-1.jpg",
@@ -802,6 +826,7 @@ console.log(productthis);
       "Labs",
       "Convenience Store"
     ],
+    "PlacementPercentage":"95%",
     "StudentReview": 4.4,
     "location": "Nambur,Guntur"
   },
@@ -835,8 +860,4 @@ console.log(productthis);
 //     "description": "Just Strawberry",
 //     "vendors": ["Big Basket"]
 //  }
-
-
-
-
 ]

@@ -132,13 +132,10 @@ onMouseLeave={onMouseLeave}
 
 
 <li className='nav-item'>
-<Link to='/contactus' className='nav-links' onClick={closeMobileMenu}>
-   Reviews
+<Link to='/profilepage' className='nav-links' onClick={closeMobileMenu}>
+   Profile
 </Link>
 </li>
-
-
- 
           <li>
             <Link
               to='/register'

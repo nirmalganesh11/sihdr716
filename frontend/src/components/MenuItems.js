@@ -15,8 +15,8 @@ export const MenuItems = [
       cName: 'dropdown-link'
     },
     {
-      title: 'Avg Fee Ranking',
-      path: '/feeranking',
+      title: 'Reviews',
+      path: '/contactus',
       cName: 'dropdown-link'
     }
   ];

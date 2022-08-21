@@ -9,7 +9,7 @@ import {
   useAsyncDebounce
 } from "react-table";
 import matchSorter from "match-sorter";
-import cars from "./cars";
+import cars from "./cert";
 
 const Styles = styled.div`
   padding: 0rem;
@@ -361,6 +361,42 @@ function Table({ columns, data }) {
 }
 const App = () => {
     const columns = React.useMemo(
+      () => [
+        {
+          Header: "Exp Year",
+          accessor: "year",
+          Filter: NumberRangeColumnFilter,
+          filter: "between"
+        },
+        {
+          Header:"Level",
+          accessor:"color"
+        },
+        {
+          Header: "Make",
+          accessor: "make",
+          Filter: CheckBoxColumnFilter,
+          filter: "includes"
+        },
+        {
+          Header: "Name",
+          accessor: "model",
+          disableFilters: true
+        },
+        {
+          Header: "Cert Id",
+          accessor: "vin",
+          disableFilters: true
+        },
+        {
+          Header: "cert Date",
+          accessor: "date",
+          disableFilters: true
+        }
+      ],
+      []
+    );
+    const columnstype = React.useMemo(
       () => [
         {
           Header: "Year",

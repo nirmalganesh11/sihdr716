@@ -132,7 +132,7 @@ onMouseLeave={onMouseLeave}
 
 
 <li className='nav-item'>
-<Link to='/profilepage' className='nav-links' onClick={closeMobileMenu}>
+<Link to='/services' className='nav-links' onClick={closeMobileMenu}>
    Profile
 </Link>
 </li>

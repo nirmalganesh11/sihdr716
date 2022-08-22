@@ -1,5 +1,5 @@
 import {React,useState,useEffect} from 'react'
-import {HiOutlineShoppingCart,HiShoppingCart} from "react-icons/all"
+import {HiOutlineShoppingCart,HiShoppingCart,BsFileEarmarkPlus,ImFolderPlus,TiTick} from "react-icons/all"
 import { Image } from "@chakra-ui/react"
 import {Link } from 'react-router-dom'
 import Rating from './Rating'
@@ -35,12 +35,13 @@ const CardProduct = ({product}) => {
                        <Link to={`/product/${product._id}`} exact  >     
                             <span><strong>{product.name}</strong></span>     
                        </Link>
-                              {Incart ?  <HiShoppingCart className="iconFav" size ='26'/> : <HiOutlineShoppingCart  className="iconFav" color='#999' size='26'  onClick = {addcart}/>  }
+                              {Incart ?  <TiTick  className="iconFav" color='#999' size='26' /> :  <BsFileEarmarkPlus className="iconFav" color='#999' size='26'  onClick = {addcart}/> }
                        <div className = 'productpricecard'> {`${product.location}`}</div>
                        <div className = 'Rating'>
                        <Rating value={product.rating} text={`${product.numReviews} reviews`}/>
                        </div>          
                </div>
+               
                       <Link to={`/product/${product._id}`} exact >
                              <button className= { showbtn ? 'QuickView QuickViewActive' : 'QuickView' }> View Details</button>
                       </Link>   

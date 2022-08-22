@@ -5,6 +5,7 @@ import SearchBar from "./components/searchBar";
 import { Container, Header } from "semantic-ui-react";
 import { size } from "lodash";
 import Button from 'react-bootstrap/Button';
+import GoodCard from '../GoodCard'
 
 
 class App extends React.Component {
@@ -45,8 +46,10 @@ class App extends React.Component {
         <Header as="h2" style={{ fontSize: 14,textAlign: "center", margin: 80}}><strong> Search for a topic</strong>
  
         </Header>
+        <GoodCard/>
         <center><Button variant="primary" size="lg" href="https://8j2fr.csb.app/">
         Click For Daily News      </Button></center>
+       
         {loading && (
           <p style={{ textAlign: "center" }}>Searching for articles...</p>
         )}

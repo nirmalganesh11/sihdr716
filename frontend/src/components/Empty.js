@@ -15,7 +15,7 @@ const Empty = () => {
                 Try Applying to few Colleges
             </h1>
              
-            <Link to = '/shop' className ='goshop' onMouseOver = {()=>{setarrow(true)}} onMouseLeave = {()=>{setarrow(false)}}>
+            <Link to = '/Universities?cg=uni' className ='goshop' onMouseOver = {()=>{setarrow(true)}} onMouseLeave = {()=>{setarrow(false)}}>
             Go search Universities  
             {!arrow ? <RiArrowRightSLine className = 'arrow' /> : <BsArrowBarRight className = 'arrow'/> }
             </Link>

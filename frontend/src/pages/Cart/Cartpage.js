@@ -33,7 +33,7 @@ const Cartpage = ({match,location,history}) => {
         :
         <div className ='cartfull'>
         <div className = 'cart'>
-            <h1>Your Cart : {cartItems.length}</h1>
+            <h1>Applied Colleges : {cartItems.length}</h1>
             <div className ='productsoncart'>
             {cartItems.map(product =>(
                     <Productoncart product = {product} />

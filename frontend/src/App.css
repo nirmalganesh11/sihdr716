@@ -386,6 +386,15 @@ nav {
 .cardscg:nth-child(3) {
   background: url("https://www.lingayasvidyapeeth.edu.in/sanmax/wp-content/uploads/2021/08/phd-program-banner.jpg") no-repeat center top/cover;
 }
+.cardscg:nth-child(4) {
+  background: url("https://t4.ftcdn.net/jpg/04/61/67/09/360_F_461670985_D1ykf5RzBimQopohcg6wbmXrCRIyYTGI.jpg") no-repeat center top/cover;
+}
+.cardscg:nth-child(5) {
+  background: url("https://ythi.net/wp-content/uploads/abbre_images/a8/NIT-TSLD80T.png") no-repeat center top/cover;
+}
+.cardscg:nth-child(6) {
+  background: url("https://ythi.net/wp-content/uploads/abbre_images/7c/IIIT-WN5KEYF.png") no-repeat center top/cover;
+}
 
 /* --- CgDiv ----*/
 
@@ -643,7 +652,7 @@ nav {
     margin-left: 0px;
   }
 }
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .main {
     overflow-x: hidden;
   }
@@ -674,18 +683,18 @@ nav {
     opacity: 0;
   }
   .slide:first-child {
-    background: url("product2media.png") no-repeat center top/cover;
+    background: url("https://wallpaperaccess.com/full/1912151.jpg") no-repeat center top/cover;
   }
   .slide:nth-child(2) {
-    /* position: absolute; */
+  
     background-position: right;
   }
   .slide:nth-child(3) {
-    /* position: absolute; */
+  
     background-position: bottom 10px right -100px;
   }
   .slide:nth-child(4) {
-    /* position: absolute; */
+   
     background-position: right;
   }
   .slide .titleslider {
@@ -715,7 +724,7 @@ nav {
     bottom: 200px;
   }
   .logo {
-    /* position: absolute; */
+   
     width: 100%;
     display: flex;
     margin: 0;
@@ -738,7 +747,7 @@ nav {
   .burger {
     position: absolute;
     right: 0px;
-    /* margin-right: 12px; */
+  
     display: inline-block;
   }
   .cardsProduct {
@@ -752,7 +761,7 @@ nav {
     grid-row: 3/3;
     grid-column: 1/1;
   }
-}
+} */
 .toggle .line1 {
   transform: rotate(-45deg) translate(-8px, 6px);
 }

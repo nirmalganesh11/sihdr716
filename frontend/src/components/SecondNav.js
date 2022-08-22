@@ -90,6 +90,20 @@ function Navbar() {
   Comparison
 </Link>
 </li>
+<li className='nav-item'>
+<Link to='/leaderboard'
+  className='nav-links'
+  onClick={closeMobileMenu}
+>
+  Verified
+</Link>
+</li>
+
+<li className='nav-item'>
+<Link to='/files' className='nav-links' onClick={closeMobileMenu}>
+   Upload
+</Link>
+</li>
 
 <li
 className='nav-item'
@@ -115,6 +129,7 @@ onMouseLeave={onMouseLeave}
 </Link>
 
 </li>
+{/*
 <li
 className='nav-item'
 onMouseEnter={onMouseEnterSecond}
@@ -128,14 +143,9 @@ onMouseLeave={onMouseLeave}
   secondoverall <i className='fas fa-caret-down' />
 </Link>
 {secondDropdown && <Dropdown />}
-</li>
+</li> */}
 
 
-<li className='nav-item'>
-<Link to='/services' className='nav-links' onClick={closeMobileMenu}>
-   Profile
-</Link>
-</li>
           <li>
             <Link
               to='/register'

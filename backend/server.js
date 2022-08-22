@@ -3,6 +3,7 @@ import express from "express";
 import dotenv from "dotenv";
 import connectDB from "./config/db.js";
 import morgan from "morgan";
+import cors from "cors"
 import userRoutes from "./routes/userRoutes.js";
 import orderRoutes from "./routes/orderRoutes.js";
 import productRoutes from "./routes/productRoutes.js";
@@ -11,6 +12,7 @@ import productRoutes from "./routes/productRoutes.js";
 
 import { notFound, errorHandler } from "./middleware/errorMiddleware.js";
 import todos from "./routes/todos.route.js"
+import fileroutes from './routes/fileroutes.js'
 dotenv.config();
 
 connectDB();
@@ -22,6 +24,7 @@ if (process.env.NODE_ENV === "developement") {
 }
 
 app.use(express.json());
+app.use(cors())
 
 app.use("/api/products", productRoutes);
 //app.use("/api/courses",courseRoutes);
@@ -31,6 +34,7 @@ app.get("/api/config/paypal", (req, res) =>
   res.send(process.env.PAYPAL_CLIENT_ID)
 );
 app.use(todos);
+app.use(fileroutes)
 const __dirname = path.resolve();
 
 if (process.env.NODE_ENV === "production") {

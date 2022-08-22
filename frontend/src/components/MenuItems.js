@@ -5,18 +5,23 @@ export const MenuItems = [
       cName: 'dropdown-link'
     },
     {
-      title: 'Leader Board',
-      path: '/leaderboard',
+      title: 'Profile',
+      path: '/completedata',
       cName: 'dropdown-link'
     },
     {
-      title: 'Admissions',
-      path: '/admissions',
+      title: 'Results',
+      path: '/results',
       cName: 'dropdown-link'
     },
     {
       title: 'Reviews',
       path: '/contactus',
+      cName: 'dropdown-link'
+    },
+    {
+      title: 'Student Mobility',
+      path: '/studentsdata',
       cName: 'dropdown-link'
     }
   ];

@@ -37,6 +37,9 @@ import Apple from './components/ranking/App'
 import leaderboard from './components/leaderboard/App'
 //import ProfilePage from './components/profilepage/ProfilePage'
 import review from './components/reviewapp/App'
+import uploadfiles from './components/uploadmodule/components/App'
+import FilesList from './components/uploadmodule/components/FilesList'
+import Result from './components/results/result'
 
 
  const App = () => { 
@@ -64,16 +67,17 @@ import review from './components/reviewapp/App'
                  <Switch>              
                  <Route path="/" exact component={Home}/>
                  <Route path="/news" exact component={News}/>
-             
+                 <Route  path="/files" component={uploadfiles}/>
+                 <Route  path="/list" component={FilesList}/>
                  <Route path="/compare" exact component={Appy}/>
                  <Route path="/about" component={About}/>
+                 <Route path="/results" component={Result}/>
                  <Route path="/universities" component={Shop}/>
                  <Route path="/leaderboard" component={leaderboard}/>
                  <Route path="/profilepage" component={leaderboard}/>
                  <Route path="/recomended" component={Apple}/>
-                
                  <Route path="/courses" component={ShopCourse}/>
-                 <Route path="/contactus" component={review}/>
+                 <Route path="/contactus" component={Contactus}/>
                  <Route path="/product/:id" component={Productpage}/>
                  <Route path="/course/:id" component={ProductPageModified}/>
                  <Route path="/cart/:id?" component={Cartpage}/>

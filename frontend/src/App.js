@@ -40,6 +40,7 @@ import review from './components/reviewapp/App'
 import uploadfiles from './components/uploadmodule/components/App'
 import FilesList from './components/uploadmodule/components/FilesList'
 import Result from './components/results/result'
+import BarChart from './components/chart/chart'
 
 
  const App = () => { 
@@ -71,6 +72,7 @@ import Result from './components/results/result'
                  <Route  path="/list" component={FilesList}/>
                  <Route path="/compare" exact component={Appy}/>
                  <Route path="/about" component={About}/>
+                 <Route path='/chart' component={BarChart} />
                  <Route path="/results" component={Result}/>
                  <Route path="/universities" component={Shop}/>
                  <Route path="/leaderboard" component={leaderboard}/>

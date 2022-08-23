@@ -1,4 +1,10 @@
 export const MenuItems = [
+  {
+    title: 'Placement Stats',
+    path: '/chart',
+    cName: 'dropdown-link'
+  },
+
     {
       title: 'News',
       path: '/news',

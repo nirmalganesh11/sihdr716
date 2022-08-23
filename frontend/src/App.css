@@ -294,6 +294,7 @@ nav {
   row-gap: 20px;
 }
 .cardscg {
+  border-radius: 15px;
   width: 100%;
   height: 250px;
   display: grid;
@@ -335,6 +336,7 @@ nav {
   transition: 0.5s all ease;
 }
 .cardscg:hover * {
+  border-radius: 15px;
   color: white;
   z-index: 3;
 }
@@ -351,6 +353,7 @@ nav {
   opacity: 0;
 }
 .cardscg:hover::after {
+  border-radius: 15px;
   display: block;
   transition: 0.5s all ease;
   transform: translateY(-20px);
@@ -361,6 +364,7 @@ nav {
   background: linear-gradient(180deg, rgb(75, 57, 116), rgba(0, 0, 0, 0.493));
 }
 .ShopNowcg::after {
+  border-radius: 15px;
   content: "";
   transition: all 1s ease-out;
   width: 0;
@@ -372,15 +376,18 @@ nav {
   background: white;
 }
 .cardscg:hover .ShopNowcg::after {
+  border-radius: 15px;
   transition: all 1s ease-out;
   width: 100%;
   left: 0;
   right: 0;
 }
 .cardscg:first-child {
+  
   background: url("https://images1.content-hci.com/commimg/myhotcourses/blog-inline/myhc_42490.jpg") no-repeat center top/cover;
 }
 .cardscg:nth-child(2) {
+  border-radius: 10px;
   background: url("https://st.depositphotos.com/1252160/5057/i/950/depositphotos_50573995-stock-photo-cheerful-postgraduate-with-laptop-and.jpg") no-repeat center top/cover;
 }
 .cardscg:nth-child(3) {
@@ -544,6 +551,7 @@ nav {
 }
 /*Carads Product*/
 .cardsProduct {
+  border-radius: 10px;
   width: auto;
   display: grid;
   margin: 35px;
@@ -555,6 +563,7 @@ nav {
   /* margin-right: 125px; */
 }
 .cardProduct {
+  border-radius: 10px;
   box-shadow: 0 5px 5px -1px rgba(0, 0, 0, 0.2);
   display: grid;
   grid-template-rows: 80% 20%;
@@ -600,6 +609,7 @@ nav {
   display: grid;
 }
 .imgDiv {
+  border-radius: 10px;
   position: relative;
   overflow: hidden;
   width: 100%;

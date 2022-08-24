@@ -531,11 +531,12 @@ nav {
 }
 /* Search */
 .Searcharea {
-  height: 80px;
+  
+  height: 70px;
   z-index: -1;
-  margin: 35px;
+  margin: 10px;
   display: flex;
-  background-color: transparent;
+  background-color:transparent;
   justify-items: center;
   align-items: center;
 }

@@ -2,10 +2,11 @@ import React,{useState,useEffect} from 'react'
 import Slider from '../components/Slider'
 import Cardscg from '../components/Cardscg'
 import CgDiv from '../components/CgDiv'
-import ProductsC from '../components/ProductsC'
+import ProductsCModified from '../components/ProductsC'
 import { Helmet } from 'react-helmet';
-import { Link } from 'react-router-dom'
+import { Link,Route } from 'react-router-dom'
 
+import Search from '../components/Search'
 
 const Home = () => {
  
@@ -15,6 +16,10 @@ const Home = () => {
             <title>AIUD</title>
         </Helmet>
              <div>
+             <br/>
+             <br />
+             <br />
+             <Route render = {({history}) => <Search  history = {history}/> }/> 
                 <Slider/>
                  <div className="cards">
                          <Cardscg title='UG'/>
@@ -25,7 +30,8 @@ const Home = () => {
                          <Cardscg title='IIIT'/>              
                  </div>
                 <CgDiv/>
-                <ProductsC/>
+                
+                <ProductsCModified/>
         </div>
         </>
     )

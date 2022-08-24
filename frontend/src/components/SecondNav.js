@@ -4,12 +4,16 @@ import { Link } from 'react-router-dom';
 import './SecondNav.css';
 //import Dropdown from './Dropdown';
 import Dropdown from './Dropdown';
+import {useDispatch, useSelector } from 'react-redux'
+
 
 function Navbar() {
+  const userLogin = useSelector(state => state.userLogin)
+  const userInfo = userLogin
   const [click, setClick] = useState(false);
   const [dropdown, setDropdown] = useState(false);
   const [secondDropdown,setsecondDropdown] = useState(false);
-
+  console.log(userInfo)
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
@@ -98,7 +102,15 @@ function Navbar() {
   Verified
 </Link>
 </li>
-
+{/* {userInfo ? (<li className='nav-item'>
+<Link to='/files' className= 'nav-links' onClick={closeMobileMenu}>
+   ${userInfo.message}
+</Link>
+</li>): <li className='nav-item'>
+<Link to='/files' className='nav-links' onClick={closeMobileMenu}>
+   not signed IN
+</Link>
+</li>} */}
 <li className='nav-item'>
 <Link to='/files' className='nav-links' onClick={closeMobileMenu}>
    Upload
